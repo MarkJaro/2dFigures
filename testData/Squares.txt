@@ -1,0 +1,5 @@
+HollowSquare,50,50,100,100,255,0,0
+FilledSquare,350,50,100,100,255,0,0
+GradientSquare,650,50,100,100,255,0,0,0,0,255
+PictureSquare,50,200,700,350,0,0,850,650,owl1.jpg
+

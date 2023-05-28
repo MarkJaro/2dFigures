@@ -1,0 +1,7 @@
+HollowCircle,150,150,100,255,0,0
+FilledCircle,400,150,100,255,0,0
+Gradient1Circle,150,400,100,255,0,0,0,0,255
+Gradient2Circle,400,400,100,255,0,0,0,0,255
+
+
+
