@@ -9,7 +9,7 @@ namespace WpfApp
     class FileReader
     {
         public FileReader() { }
-        public void ReadData(Screen screen)
+        public void ReadFileAndDraw(Screen screen)
         {
 
             List<Shape> objects = new List<Shape>();

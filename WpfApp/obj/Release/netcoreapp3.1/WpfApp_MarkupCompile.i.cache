@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\GitHub\test\2dGraphics\WpfApp\obj\Release\netcoreapp3.1\
+D:\Projects\2dGraphics\2dGraphics\WpfApp\obj\Release\netcoreapp3.1\
 WpfApp
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
-D:\GitHub\test\2dGraphics\WpfApp\App.xaml
+D:\Projects\2dGraphics\2dGraphics\WpfApp\App.xaml
 11407045341
 
-13-288549623
-192-1533232326
+13-314242008
+1931500048147
 MainWindow.xaml;
 
 False

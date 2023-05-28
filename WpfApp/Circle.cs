@@ -208,17 +208,8 @@ namespace WpfApp
 
 				tri = new PictureTriangle(v1, v2, v3);
 
-				//if debug
-				HollowTriangle tri2 = new HollowTriangle(points[i - 1], center, points[i], Colors.Red);
-
-				
-				tri2.Draw(screen);
-
 				tri.AddPicture(points[i - 1], center, points[i], @"owl1.jpg");
 				tri.Draw(screen);
-
-				//if debug
-				tri2.Draw(screen);
 			}
 
 

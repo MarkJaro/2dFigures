@@ -127,16 +127,6 @@ namespace WpfApp
 				Drawfunc2(minY, midY, lines[0].lineFunc, lines[1].lineFunc, screen);
 				Drawfunc2(midY + 1, maxY, lines[1].lineFunc, lines[2].lineFunc, screen);
 			}
-
-
-
-			// if debug
-			line1.Draw(screen);
-			line2.Draw(screen);
-			line3.Draw(screen);
-
-
-
 		}
 
 		public void Drawfunc2(int minY, int maxY, LinearFunction linefunc, LinearFunction linefunc2, Screen screen)
@@ -258,13 +248,6 @@ namespace WpfApp
 				Drawfunc2(minY,  midY, lines[0].lineFunc, lines[1].lineFunc, screen);
 				Drawfunc2(midY + 1, maxY, lines[1].lineFunc, lines[2].lineFunc, screen);
 			}
-
-			/*
-			//if debug
-			line1.Draw(screen);
-			line2.Draw(screen);
-			line3.Draw(screen);
-			*/
 		}
 
 		protected Color colorize(int x, int y)
@@ -391,13 +374,6 @@ namespace WpfApp
 				Drawfunc2(minY, midY, lines[0].lineFunc, lines[1].lineFunc, screen);
 				Drawfunc2(midY + 1, maxY, lines[1].lineFunc, lines[2].lineFunc, screen);
 			}
-
-			/*
-			// if debug
-			line1.Draw(screen);
-			line2.Draw(screen);
-			line3.Draw(screen);
-			*/
 		}
 
 		protected Color colorize(int x, int y)
@@ -437,7 +413,6 @@ namespace WpfApp
 					Color c = colorize(x, y);
 					if (c.A != 0) { screen.Add(x, y, c); }
 				}
-
 			}
 		}
 	};

@@ -31,11 +31,7 @@ namespace WpfApp
             screen.Fill(black);
 
             FileReader reader = new FileReader();
-            reader.ReadData(screen);
-
-            // To Test PictureCircle
-            //PictureCircle c = new PictureCircle(new Point2i(300, 300), 100, Color.FromRgb(255, 0, 0), Color.FromRgb(0, 255, 0));
-            //c.Draw(screen);
+            reader.ReadFileAndDraw(screen);
 
             BitmapSource src = BitmapSource.Create(800, 600, 96, 96, PixelFormats.Rgb24, null, screen.Pixels, 800 * 3);
             Window.Source = src;
